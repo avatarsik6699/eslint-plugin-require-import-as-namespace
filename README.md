@@ -1,25 +1,24 @@
 # ESLint Plugin
 
-  This ESLint plugin enforces the use of `import * as some from ''` instead of default import.
+This ESLint plugin enforces the use of `import * as some from ''` instead of default import.
 
 ## Installation
 
-  You can install this plugin using npm:
+You can install this plugin using npm:
 
-  ```bash
-  npm install eslint-plugin-custom-imports --save-dev
-  ```
+```bash
+npm install eslint-plugin-custom-imports --save-dev
+```
 
 ## Usage
-  Add the plugin to your ESLint configuration:
 
-  ```json
-  {
-    "plugins": [
-      "custom-imports"
-    ],
-    "rules": {
-      "custom-imports/require-import-as-namespace": "error"
-    }
+Add the plugin to your ESLint configuration:
+
+```json
+{
+  "plugins": ["import-as-namespace"],
+  "rules": {
+    "import-as-namespace/require-import-as-namespace": "error"
   }
-  ```
+}
+```
