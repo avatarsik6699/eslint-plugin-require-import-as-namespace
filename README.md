@@ -7,7 +7,7 @@ This ESLint plugin enforces the use of `import * as some from ''` instead of def
 You can install this plugin using npm:
 
 ```bash
-npm install eslint-plugin-custom-imports --save-dev
+npm install eslint-plugin-import-as-namespace --save-dev
 ```
 
 ## Usage
