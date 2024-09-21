@@ -1,6 +1,6 @@
 {
   "name": "eslint-plugin-require-import-as-namespace",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "ESLint plugin to require using import * as some from '' instead of default import",
   "main": "lib/index.js",
   "scripts": {
